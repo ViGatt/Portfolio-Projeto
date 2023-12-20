@@ -42,6 +42,8 @@
         gap: 40px;
     }
     .footer-contato li {
-        font-size: 1.5rem;
+        font-size: 1rem; /* Ajustei a fonte para garantir que o texto caiba */
+        word-wrap: break-word; /* Permite a quebra de palavras longas */
+        overflow-wrap: break-word; /* Melhor suporte à quebra de palavras */
     }
 }
